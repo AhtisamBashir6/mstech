@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,9 +11,9 @@
 
 body {
 	padding-top: 3rem;
-	padding-bottom: 3rem;
 	color: #5a5a5a;
 	font-family: Poppins;
+	text-rendering: optimizeLegibility;
 }
 
 
@@ -42,10 +43,12 @@ body {
 		height: 32rem;
 	}
 }
+
 // Navbar
 #button {
 	padding: 5px 16px;
 	background-color: #FFCA3A;
+	border: none;
 	color: #282829;
 	display: flex;
 	justify-content: center;
@@ -60,27 +63,27 @@ body {
 	font-family: "Avenir";
 	transform: scale(1);
 }
+
 #button:hover {
 	padding: 8px 18px;
 }
 
-#nav-logo{
-	color:#510c76;
+#nav-logo {
+	color: #510c76;
 	font-weight: bold;
 	font-size: 24px;
 	padding: 0 5%;
 }
 
-main
- .banner {
+main .banner {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top left;
 	padding-top: 85px;
 	padding-bottom: 85px;
-	color:white;
+	color: white;
 	margin-bottom: 3%;
-  }
+}
 
 
 
@@ -146,18 +149,119 @@ main
 	}
 }
 
-.nav-link:hover{
-	color:red;
-}
-.blog-heading{
-	text-align: center;
-	margin: 30px 0;
+.nav-link:hover {
+	color: red;
 }
 
-header{
-	nav{
-     &.navbar{
-		background-color: #fff;
-	 }
+.blog-heading {
+	text-align: center;
+}
+
+.arrow-btn {
+	color: #510c76;
+	font-size: 16px;
+	font-weight: 800;
+	align-items: center;
+	width: fit-content;
+}
+
+header {
+	nav {
+		&.navbar {
+			background-color: #fff;
+		}
 	}
+}
+
+.card {
+	border: 1px solid #001C71 !important;
+}
+
+.card:hover {
+	margin-top: -12px;
+}
+
+// footer
+footer {
+	background-color: #F5F0FF;
+	// padding-bottom: 30px;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer {
+	.row.top-row {
+		padding-top: 58px;
+		align-items: flex-start;
+
+		.footer-link a:hover {
+			color: #510c76;
+		}
+
+		.lastcol .wrap {
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			a {
+				font-size: 16px;
+				line-height: 28px;
+				font-weight: 400;
+				color: #444;
+			}
+		}
+
+		.footer-link {
+			a {
+				color: #5a5a5a;
+				line-height: 28px;
+
+			}
+		}
+	}
+
+	li {
+		list-style: none;
+		padding: 5% 0;
+	}
+}
+
+.address {
+	display: flex;
+	gap: 4px;
+	word-break: break-all;
+}
+
+.phone {
+	display: flex;
+	gap: 4px;
+	word-break: break-all;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+#footer-logo{
+	color: #510c76;
+	font-weight: bold;
+	font-size: 32px;
+	padding-top: 40px;
+}
+a {
+	color: #5a5a5a;
+
 }
