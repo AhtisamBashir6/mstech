@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+<body>
+   <main>
+   {% include header.html %} 
+   <section class="innerbanner">
+    <div class="container">
+        <div class="col-xl-8 col-lg-8 col-md-10 col-sm-10 col-12 text-center m-auto aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+            <p>
+                <span>
+                    04.14.2022
+                </span>
+                <span class="seperator"></span>
+                <span>
+                    Blog
+                </span>
+            </p>
+
+            <h1>Seven Benefits of Recruitment Process Outsourcing (RPO).</h1>
+
+
+        </div>
+        </div>
+    </div>
+</section>
+<section class="second-section defautlval">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xl-9 col-lg-9 col-md-10 col-sm-12 col-11 m-auto postblog">
+                <div class="container postcontainer">
+                    <div class="row postrow">
+                        <div class="col-12">
+                   <p class="checking"> <img src="{{ page.image-large }}" alt="hhh"> </p>
+                   
+                   <div class="main_blog_list row postrow aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" style="display: flex;">
+                      <p>{{ content | markdownify }} </p>
+
+                    </div>
+                    <div class="row share-row ">
+                        <div class="col-12 share-col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                            <p>
+                                Share This Post On
+                            </p>
+                            <ul>
+                                <li> <a href="#" title="Share on Facebook" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="#"  title="Share on LinkedIn" class="linkedin">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+
+
+
+                                <li><a href="#" title="Share on Twitter" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+            </div>
+
+
+</section>
+   {% include footer.html %}
+</main>
+</body>
+</html>

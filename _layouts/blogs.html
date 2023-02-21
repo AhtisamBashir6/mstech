@@ -13,19 +13,19 @@
         </div>
     </div>
 </section>
-<section class="second-section">
+<section class="second-section ">
     <div class="container">
         <div class="row ">
             <div class="col-xl-11 col-lg-11 col-md-10 col-sm-12 col-11 m-auto postwraper">
                 <div class="container">
+                    {% for post in site.posts %}
+                    
                    <div class="main_blog_list row postrow aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" style="display: flex;">
 
                         <div class="col-xl-5 col-lg-5 col-md-12 m-md-auto col-sm-12 col-12">
 
-                            <div class="img">
-                                <img src="https://recruittalent.com/images/recruittalentshort.png" alt="Announces the Launch of RecruitTalent" class="img-fluid">
-
-
+                            <div class="img ">
+                                <img class="medium-img" src="{{ post.image-medium }}" alt={{ post.title }} class="img-fluid">
                             </div>
 
                         </div>
@@ -35,7 +35,7 @@
                             <div class="content">
                                 <p class="top">
                                     <span>
-                                        05.01.2022
+                                       {{ post.date }}
                                     </span>
                                     <span class="seperator"></span>
                                     <span>
@@ -43,106 +43,20 @@
                                     </span>
                                 </p>
                                
-                                <a href="#" class="title"><h5> Announces the Launch of RecruitTalent</h5></a> 
+                                <a href="#" class="title"><h5> <a href="{{ post.permalink }}">{{ post.title }}</a> </h5></a> 
 
-                                <p>
-                                    SYSUSA. Inc. (www.sysusa.com), an Information Technology Services and Solutions Company, announced the launch of a dba RecruitTalent, LLC. (www.recruittalent.com).
-                                </p>
+                                <p>{{ post.description }}</p>
 
-                                <a href="#" class="arrow-btn">
+                                <a href="{{ post.permalink }}" class="arrow-btn">
                                     READ MORE</a>
                             </div>
 
                         </div>
 
                     </div>
-                    
-                    <div class="main_blog_list row postrow aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" style="display: flex;">
-
-                        <div class="col-xl-5 col-lg-5 col-md-12 m-md-auto col-sm-12 col-12">
-
-                            <div class="img">
-                                <img src="https://recruittalent.com/images/rposhort.png" alt="Seven Benefits of Recruitment Process Outsourcing (RPO)." class="img-fluid">
-
-
-                            </div>
-
-                        </div>
-                        <div class="col-xl-7 col-lg-7 col-md-12 m-md-auto col-sm-12 col-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-
-
-                            <div class="content">
-                                <p class="top">
-                                    <span>
-                                        04.14.2022
-                                    </span>
-                                    <span class="seperator"></span>
-                                    <span>
-                                        Blog
-                                    </span>
-                                </p>
-                               
-                                <a href="#" class="title"><h5> Seven Benefits of Recruitment Process Outsourcing (RPO).</h5></a> 
-
-                                <p>
-                                    Lack of talent makes hiring qualified people a challenging task for businesses across industries.
-                                </p>
-
-                                <a href="#" class="arrow-btn">
-                                    READ MORE</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    
-                    <div class="main_blog_list row postrow aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" style="display: flex;">
-
-                        <div class="col-xl-5 col-lg-5 col-md-12 m-md-auto col-sm-12 col-12">
-
-                            <div class="img">
-                                <img src="https://recruittalent.com/images/finding-qualified-it-talent-short.png" alt="Finding qualified IT Talent is an industry challenge! How can RecruitTalent Help?" class="img-fluid">
-
-
-                            </div>
-
-                        </div>
-                        <div class="col-xl-7 col-lg-7 col-md-12 m-md-auto col-sm-12 col-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-
-
-                            <div class="content">
-                                <p class="top">
-                                    <span>
-                                        04.13.2022
-                                    </span>
-                                    <span class="seperator"></span>
-                                    <span>
-                                        Blog
-                                    </span>
-                                </p>
-                               
-                                <a href="#" class="title"><h5> Finding qualified IT Talent is an industry challenge! How can RecruitTalent Help?</h5></a> 
-
-                                <p>
-                                    Let's accept it. We face a global IT talent shortage. There are more than 11 million job openings in America today.
-                                </p>
-
-                                <a href="#" class="arrow-btn">
-                                    READ MORE</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="mid_btn">
-                                <a href="#" id="loadMore" class="button m-auto diagnol-btn no-more">Load More</a>
-                            </div>
-                        </div>
-                    </div>
-
+               
+                    {% endfor %}  
+               
                 </div>
 
             </div>
