@@ -76,14 +76,17 @@ body {
 	text-decoration: none;
 }
 
-main .banner {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top left;
-	padding-top: 85px;
-	padding-bottom: 85px;
-	color: white;
-	margin-bottom: 3%;
+main {
+	.banner {
+		background-size: cover;
+		// background-image: "https://recruittalent.com/images/home-banner.png";
+		background-repeat: no-repeat;
+		background-position: top left;
+		padding-top: 85px;
+		padding-bottom: 85px;
+		color: white;
+		margin-bottom: 3%;
+	}
 }
 
 
@@ -429,12 +432,12 @@ a:hover {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		
+
 
 		ul {
 			display: flex;
 			justify-content: start;
-			align-items:start;
+			align-items: start;
 			list-style-type: none;
 			margin-left: -30px;
 			gap: 6px;
@@ -465,6 +468,42 @@ a:hover {
 
 				}
 
+			}
+		}
+	}
+}
+
+main {
+	.fifth-section {
+		background-color: #510c76;
+		padding-top: 55px;
+		padding-bottom: 55px;
+
+		.countcard {
+			background-color: #fff;
+			border-radius: 4px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			text-align: center;
+			box-shadow: 0px 36px 36px 0px #360650;
+			-webkit-box-shadow: 0px 36px 36px 0px #360650;
+			-moz-box-shadow: 0px 36px 36px 0px #360650;
+
+			.h1 {
+				color: #510c76;
+			}
+
+			.plus {
+				margin-left: -10px;
+			}
+
+			.plus::after {
+				font-family: "Font Awesome 5 Pro";
+				content: "\f067";
+				font-size: 25px;
+				margin-left: 10px;
+				margin-top:10px;
+				position: absolute;
 			}
 		}
 	}

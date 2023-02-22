@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+<body>
+    {% include header.html %} 
+    <main role="main">
+
+        <!-- banner start -->
+        <section class="banner" id="home" style="background-image: url(https://recruittalent.com/images/about-banner.png);">
+            <div class="container">
+              <h1 class="banner-heading">{{ page.bannerheading | markdownify }}</h1>
+              <p>{{ page.bannersubheading | markdownify }}</p>
+              <p> <button class="my-2 my-sm-0" id="button"  type="submit">{{ page.button-title }}</button></p>
+            </div>
+        </section>
+         <!-- banner end -->
+    
+           <!-- About us start -->
+           <div  id="aboutus" class="container marketing">
+         <div class="row featurette">
+          <div class="col-md-6">
+            <img class="py-4" src="{{ page.aboutus-image }}" alt="Blog2-Image">
+           </div>
+           <div class="col-md-6 pt-3"> 
+            <p class="card-text">{{ page.aboutus-description | markdownify }}</p>
+            </div>
+           
+         </div>
+         <hr class="featurette-divider">
+        </div>
+        
+         <!-- About us end -->
+         <section class="fifth-section" id="counter">
+          <div class="container">
+              <div class="row counterrow">
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-8 m-sm-0 m-auto">
+                      <div class="countcard">
+                          <div>
+                              <p class="count h1 plus" data-count="350">350</p>
+                          </div>
+                          <p class="countertitle">Hired</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-8 m-sm-0 m-auto">
+                      <div class="countcard">
+                          <div>
+                              <p class="count h1 plus" data-count="500">500
+
+                              </p>
+                          </div>
+                          <p class="countertitle">Outsourced</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-8 m-sm-0 m-auto">
+                      <div class="countcard">
+                          <div>
+                              <p class="count h1 plus" data-count="14">14</p>
+                          </div>
+                          <p class="countertitle">Years in Business</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-8 m-sm-0 m-auto">
+                      <div class="countcard">
+                          <div>
+                              <p class="count h1 plus" data-count="5">5</p>
+                          </div>
+                          <p class="countertitle">Offices</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+
+    
+         <h1 class="blog-heading my-5">Our Latest Blogs</h1>
+         <!-- blogs start -->
+        <div class="container marketing" id="blogs">
+            <!-- Three columns of text below the carousel -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+             {% for post in site.posts %}
+             <a href="{{ post.permalink}}">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img  class="p-3" src="{{ post.image-card }}" alt="{{ post.title }}">
+                  <div class="card-body">
+                    <h5>{{ post.title }} </h5>
+                    <p class="card-text">{{ post.description }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="arrow-btn">READ MORE...</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+              {% endfor %}
+             </div>
+            <!-- /.row -->
+        
+     
+         <hr class="featurette-divider">
+     
+         <!-- /END THE FEATURETTES -->
+     
+       </div><!-- /.container -->
+       <!-- blogs end -->
+       {% include footer.html %}
+    </main> 
+</body>
+</html>

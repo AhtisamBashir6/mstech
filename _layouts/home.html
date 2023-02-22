@@ -26,7 +26,7 @@
           </div>
         </div>
        <div class="col-md-5">
-        <img class="p-3" src="https://recruittalent.com/images/home-third-section.png" alt="Blog2-Image">
+        <img class="p-3" src="{{ page.aboutus-image }}" alt="Blog2-Image">
        </div>
      </div>
      <hr class="featurette-divider">
@@ -38,13 +38,12 @@
      <!-- blogs start -->
     <div class="container marketing" id="blogs">
         <!-- Three columns of text below the carousel -->
-       
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
          {% for post in site.posts %}
-         <a href="{{ post.permalink}}">
+         <a href="{{ site. baseurl }}/{{ post.permalink}}">
           <div class="col">
             <div class="card shadow-sm">
-              <img  class="p-3" src="{{ post.image }}" alt="{{ post.title }}">
+              <img  class="p-3" src="{{ post.image-card }}" alt="{{ post.title }}">
               <div class="card-body">
                 <h5>{{ post.title }} </h5>
                 <p class="card-text">{{ post.description }}</p>
@@ -56,7 +55,6 @@
           </div>
         </a>
           {% endfor %}
-    
          </div>
         <!-- /.row -->
     

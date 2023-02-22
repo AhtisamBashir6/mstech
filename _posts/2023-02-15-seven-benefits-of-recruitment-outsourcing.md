@@ -1,12 +1,11 @@
 ---
-layout: blog
+layout: post
 title: Seven Benefits of Recruitment Process Outsourcing (RPO). 
-image: https://recruittalent.com/images/rpothumbnail.png
-image-medium: https://recruittalent.com/images/rposhort.png
-image-large: https://recruittalent.com/images/rpofeature.png
-date: 05.01.2022 
+image-card: https://recruittalent.com/images/rpothumbnail.png
+image-feature: https://recruittalent.com/images/rposhort.png
+image-banner: https://recruittalent.com/images/rpofeature.png
 description: "Let's accept it. We face a global IT talent shortage. There are more than 11 million job openings in America today."
-permalink: seven-benefits-of-recruitment-outsourcing
+permalink: blog/seven-benefits-of-recruitment-outsourcing
 ---
 Lack of talent makes hiring qualified people a challenging task for businesses across industries. The shrinking talent pool and the competition to attract them with good salaries and great benefits make it harder to recruit and find talent for IT and cybersecurity roles.
 
