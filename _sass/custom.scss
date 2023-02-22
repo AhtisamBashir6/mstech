@@ -185,8 +185,6 @@ header {
 	margin-top: -12px;
 }
 
-.card-box {}
-
 
 // footer
 .container {
@@ -264,9 +262,9 @@ footer {
 	background-color: white;
 	border-radius: 50%;
 	border: 1px solid #001c71;
-	font-size: 14px;
+	font-size: 12px;
 	color: #510c76;
-	padding: 10px;
+	padding: 8px 10px;
 }
 
 .fab:hover {
@@ -316,6 +314,40 @@ a {
 }
 
 main {
+	.fifth-section {
+		background-color: #510c76;
+		padding-top: 55px;
+		padding-bottom: 55px;
+
+		.countcard {
+			background-color: #fff;
+			border-radius: 4px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			text-align: center;
+			box-shadow: 0px 36px 36px 0px #360650;
+			-webkit-box-shadow: 0px 36px 36px 0px #360650;
+			-moz-box-shadow: 0px 36px 36px 0px #360650;
+
+			.h1 {
+				color: #510c76;
+			}
+
+			.plus {
+				margin-left: -10px;
+			}
+
+			.plus::after {
+				font-family: "Font Awesome 5 Pro";
+				content: "\f067";
+				font-size: 25px;
+				margin-left: 10px;
+				margin-top: 10px;
+				position: absolute;
+			}
+		}
+	}
+
 	.defautlval {
 		img {
 			width: 100%;
@@ -368,7 +400,7 @@ main {
 	}
 }
 
-m-auto {
+.m-auto {
 	margin: auto !important;
 }
 
@@ -473,38 +505,3 @@ a:hover {
 	}
 }
 
-main {
-	.fifth-section {
-		background-color: #510c76;
-		padding-top: 55px;
-		padding-bottom: 55px;
-
-		.countcard {
-			background-color: #fff;
-			border-radius: 4px;
-			padding-top: 40px;
-			padding-bottom: 40px;
-			text-align: center;
-			box-shadow: 0px 36px 36px 0px #360650;
-			-webkit-box-shadow: 0px 36px 36px 0px #360650;
-			-moz-box-shadow: 0px 36px 36px 0px #360650;
-
-			.h1 {
-				color: #510c76;
-			}
-
-			.plus {
-				margin-left: -10px;
-			}
-
-			.plus::after {
-				font-family: "Font Awesome 5 Pro";
-				content: "\f067";
-				font-size: 25px;
-				margin-left: 10px;
-				margin-top:10px;
-				position: absolute;
-			}
-		}
-	}
-}
