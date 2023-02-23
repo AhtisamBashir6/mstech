@@ -10,18 +10,19 @@
     
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
+        
         <li class="nav-item  mx-3">
         
-          <a class="nav-link" href="{{ site.baseurl }}/">HOME </a>
+          <a class="nav-link" href="{{ site.baseurl }}/">{{ site.list-nav-footer.[0] }} </a>
         </li>
         <li class="nav-item  mx-3">
-          <a class="nav-link" href="{{ site.baseurl }}/about-us">ABOUT US</a>
+          <a class="nav-link" href="{{ site.baseurl }}/about-us">{{ site.list-nav-footer.[1] }}</a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link" href="{{ site.baseurl }}/blog">BLOGS</a>
+          <a class="nav-link" href="{{ site.baseurl }}/blog">{{ site.list-nav-footer.[3] }}</a>
         </li>
       </ul>
-        <button class="my-2 my-sm-0" id="button"  type="submit">CONTACT US</button>
+        <button class="my-2 my-sm-0" id="button"  type="submit">{{ site.button-heading }}</button>
       </div>
   </div>
   </nav>

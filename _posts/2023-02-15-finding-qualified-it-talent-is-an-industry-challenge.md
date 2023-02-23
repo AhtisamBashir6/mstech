@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Finding qualified IT Talent is an industry challenge! How can RecruitTalent Help?
-image-card: https://recruittalent.com/images/finding-qualified-it-talent-thumbnail.png
-image-banner: https://recruittalent.com/images/finding-qualified-it-talent-feature.png
-image-feature: https://recruittalent.com/images/finding-qualified-it-talent-short.png
+image-card: "/img/finding-qualified-it-talent-thumbnail.png"
+image-banner: "/img/finding-qualified-it-talent-feature.png"
+image-feature: "/img/finding-qualified-it-talent-short.png"
 description: "Lack of talent makes hiring qualified people a challenging task for businesses across industries for growth to customers.                                      "
 permalink: /blog/finding-qualified-it-talent-is-an-industry-challenge 
 ---

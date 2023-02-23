@@ -1,13 +1,14 @@
 ---
 layout: aboutus
-bannerheading: About RecruitTalent
+bannerheading: About MSTech Solutions
 permalink: "/about-us"
+title: About Us
 bannersubheading: |-
  We foster a culture of challenging ourselves and <br> willingness to take responsibility to enhance the <br> experience of our partners in  success by <br> embracing continuous improvement.
-aboutus-image: "https://recruittalent.com/images/about-section-2-left.png"
+aboutus-image: "/img/about-section-2-left.png"
 button-title: GET IN TOUCH
 aboutus-description: |-
- **RecruitTalent has earned its reputation by successfully delivering upon our client aspirations by inspiring skilled professionals ready to advance their careers and transgress the boundaries. Our decades of leadership expertise combined with industry knowledge and partnerships across platforms enables us to find the hard-to-find talent that aligns with your specific business roles.** 
+ **MS Tech has earned its reputation by successfully delivering upon our client aspirations by inspiring skilled professionals ready to advance their careers and transgress the boundaries. Our decades of leadership expertise combined with industry knowledge and partnerships across platforms enables us to find the hard-to-find talent that aligns with your specific business roles.** 
  
  We are nimble and can adapt to the changing customer needs and circumstances without going over the organizational rigidities and structure hoops.
 

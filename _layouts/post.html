@@ -31,7 +31,7 @@
                 <div class="container postcontainer">
                     <div class="row postrow">
                         <div class="col-12">
-                   <p class="checking"> <img src="{{ page.image-banner }}" alt="hhh"> </p>
+                   <p class="checking"> <img src="../assets{{ page.image-banner }}" alt="hhh"> </p>
                    
                    <div class="main_blog_list row postrow aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" style="display: flex;">
                       <p>{{ content | markdownify }} </p>
@@ -43,16 +43,18 @@
                                 Share This Post On
                             </p>
                             <ul>
-                                <li> <a href="#" title="Share on Facebook" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <li> <a href="#" title="Share on Facebook" class="facebook post-icons"><i class="fa-brands fa-facebook-f"
+                                    ></i></a>
                                 </li>
-                                <li><a href="#"  title="Share on LinkedIn" class="linkedin">
+                                <li><a href="#"  title="Share on LinkedIn" class="linkedin post-icons">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                     </a>
                                 </li>
 
 
 
-                                <li><a href="#" title="Share on Twitter" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                <li><a href="#" title="Share on Twitter" class="twitter post-icons"><i 
+                                   class="fa-brands fa-twitter"></i></a>
                                 </li>
 
 

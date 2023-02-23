@@ -15,28 +15,21 @@
                         </span>
                     </a>
                     <a class="facebook link" href="#">
-                        <span =>
-                            <i class="fab fa-facebook-f"></i>
+                        <span>
+                            <i class="fab fa-facebook-f" ></i>
                         </span>
                     </a>
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-4 col-sm-6 col-12 col2">
-                <li class="footer-link home active"><a href="{{ site.baseurl }}/">Home</a></li>
-                <li class="footer-link"><a href="{{ site.baseurl }}/about-us">About Us</a></li>
-                <li class="footer-link"><a href="#" class="ourService">Our Services</a></li>
-                <li class="footer-link"><a href="#">Careers</a></li>
+                <li class="footer-link home active"><a href="{{ site.baseurl }}/">{{ site.list-nav-footer.[0] }}</a></li>
+                <li class="footer-link"><a href="{{ site.baseurl }}/about-us">{{ site.list-nav-footer.[1] }}</a></li>
             </div>
 
             <div class="col-lg-2 col-md-4 col-sm-6 order-sm-12 col-12 col3">
-                <li class="footer-link"><a href="#">Contact Us</a></li>
-                <li class="footer-link "><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
-
-                <li class="footer-link d-none"><a href="#">Testimonials</a></li>
-                <li class="footer-link"><a href="#">FAQs</a></li>
-                <li class="footer-link d-none"><a href="#" class="casestd">Case Studies</a>
-                </li>
+                <li class="footer-link"><a href="#">{{ site.list-nav-footer.[2] }}</a></li>
+                <li class="footer-link "><a href="{{ site.baseurl }}/blog" class="blog">{{ site.list-nav-footer.[3] }}</a></li>
             </div>
 
             <div class="col-xl-3 col-lg-4 col-md-6 offset-xl-3 offset-lg-2 col-sm-6  order-md-12 col-12 lastcol">
@@ -53,7 +46,7 @@
                         </svg>
 
                     </span>
-                    <p><a href="tel:(202) 922-4044">(202) 9892-40944</a></p>
+                    <p><a href="{{ site.footer-contact-number }}">{{ site.footer-contact-number }}</a></p>
                 </div>
 
                 <div class="wrap address">
@@ -72,10 +65,10 @@
                         </span>
                     </div>
                     <div id="address-content">
-                        <p>MSTech Solutions<br>
-                            23 Sector Main Street <br>
-                            Manhattan, VA 20160, <br>
-                            USA</p>
+                        <p>{{ site.footer-contact-number }}<br>
+                            {{ site.footer-street-address }} <br>
+                            {{ site.footer-city}} <br>
+                            {{ site.footer-country }}</p>
 
                     </div>
                 </div>
@@ -86,7 +79,7 @@
         <div class="row bottom-row">
             <div class="col-lg-6  col-md-7 col-sm-12 col-12 text-md-left  text-sm text-sm-center text-center">
                 <small>
-                    <p>© 2022 Copyright RecruitTalent LLC All rights reserved. </p>
+                    <p>© 2023 Copyright MSTech All rights reserved. </p>
                 </small>
             </div>
             <div class="col-lg-6  col-md-5 col-sm-12 col-12 text-md-right text-sm text-sm-center text-center">

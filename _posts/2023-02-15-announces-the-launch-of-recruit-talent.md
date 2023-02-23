@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Announces the Launch of Recruit Talent
-image-card: https://recruittalent.com/images/recruittalentthumbnail.png
-image-feature: https://recruittalent.com/images/recruittalentshort.png
-image-banner: https://recruittalent.com/images/recruittalentfeature.png
+image-card: "/img/recruittalentthumbnail.png"
+image-feature: "/img/recruittalentshort.png"
+image-banner: /img/recruittalentfeature.png
 description: "SYSUSA. Inc. (www.sysusa.com), an Information Technology Services and Solutions Company, announced the launch of a dba RecruitTalent, LLC. (www.recruittalent.com)."
 permalink: "/blog/announces-the-launch-of-recruit-talent"
 ---
