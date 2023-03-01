@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://ahtisambashir6.github.io/mstech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahtisambashir6.github.io/mstech/" rel="alternate" type="text/html" /><updated>2023-03-01T13:28:13+00:00</updated><id>https://ahtisambashir6.github.io/mstech/feed.xml</id><title type="html">MSTech</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Post Application of Markdown</title><link href="https://ahtisambashir6.github.io/mstech/blog/post-application-of-markdown" rel="alternate" type="text/html" title="Post Application of Markdown" /><published>2023-02-27T00:00:00+00:00</published><updated>2023-02-27T00:00:00+00:00</updated><id>https://ahtisambashir6.github.io/mstech/blog/post-application-of-markdown</id><content type="html" xml:base="https://ahtisambashir6.github.io/mstech/blog/post-application-of-markdown">&lt;!-- # Representation of Heading1
+## Representation of Heading2
+### Representation of Heading3
+#### Representation of Heading4
+##### Representation of Heading5
+###### Representation of Heading6 --&gt;
+
+&lt;!-- Bold text --&gt;
+&lt;p&gt;&lt;strong&gt;To make text bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- Italic text --&gt;
+&lt;p&gt;&lt;em&gt;To make text italic&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- Blockquotes --&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote.&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Nested blockquotes.&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;More nesting.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- Markdown Underlined --&gt;
+&lt;p&gt;&lt;ins&gt;This is an underlined text&lt;/ins&gt;&lt;/p&gt;
+
+&lt;!-- Strike through text --&gt;
+&lt;p&gt;&lt;del&gt;This is strike through text&lt;/del&gt;&lt;/p&gt;
+
+&lt;!-- Inline Link --&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.interviewbit.com/practice/&quot;&gt;Link1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/mstech/contact-us&quot;&gt;A relative Link&lt;/a&gt;
+&lt;!-- Image --&gt;
+&lt;img src=&quot;https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/002/559/original/Inline_Style.png?1642758105&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ordered lists --&gt;
+&lt;ol&gt;
+  &lt;li&gt;Level 1 ordered list
+    &lt;ol&gt;
+      &lt;li&gt;Level 2
+        &lt;ul&gt;
+          &lt;li&gt;Level 3
+            &lt;ul&gt;
+              &lt;li&gt;Level 4&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Level 1
+    &lt;ol&gt;
+      &lt;li&gt;Level 2&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Level 1
+    &lt;ol&gt;
+      &lt;li&gt;Level 2&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- unordered lists can be created with an asterisk(*), (+), or (-) signs  --&gt;
+&lt;ul&gt;
+  &lt;li&gt;Element 1 unordered list&lt;/li&gt;
+  &lt;li&gt;Element 2&lt;/li&gt;
+  &lt;li&gt;Element 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Nested unordered list --&gt;
+&lt;ul&gt;
+  &lt;li&gt;Level 1
+    &lt;ul&gt;
+      &lt;li&gt;Level 2
+        &lt;ul&gt;
+          &lt;li&gt;Level 3
+            &lt;ul&gt;
+              &lt;li&gt;Level 4&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Level 1
+    &lt;ul&gt;
+      &lt;li&gt;Level 2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Level 1
+    &lt;ul&gt;
+      &lt;li&gt;Level 2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Syntax&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Header&lt;/td&gt;
+      &lt;td&gt;Title&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Paragraph&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!-- Markdown Boxed --&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;The table first row definition.&lt;/td&gt;
+&lt;td&gt;The table first row definition.&lt;/td&gt;
+&lt;td&gt;The table first row definition.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The table second row definition.&lt;/td&gt;
+&lt;td&gt;The table second row definition.&lt;/td&gt;
+&lt;td&gt;The table second row definition.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is an
+example of
+multiline code block.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;!-- Task Lists --&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Buy Eggs.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Buy Milk.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Wash Clothes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Horizontal line --&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;*Asterick&lt;/p&gt;
+
+&lt;!-- NoT --&gt;
+
+&lt;p&gt;Hey, Unless!(If not true, then it will do something)&lt;/p&gt;
+
+&lt;!-- switch case --&gt;
+
+&lt;p&gt;This is not a cookie/cake.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
