@@ -5,9 +5,13 @@
 <body>
   {% include header.html %}
   <main id="contact">
+
+    <!-- banner start -->
     <section class="banner">
       <div class="container">
         <div class="row row1">
+
+          <!-- card section start -->
           <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12 left aos-init aos-animate" data-aos="fade-up"
             data-aos-duration="1000">
             <h1>{{ page.heading }}</h1>
@@ -15,7 +19,8 @@
               <p> {{ page.subheading | markdownify }}</p>
             </h6>
             <div class="container d-lg-block">
-              <div class="row cardrow">
+
+              <div class="row cardrow justify-content-lg-start justify-content-md-center justify-content-sm-center">
                 <div class=" col-xl-5 col-lg-10 col-md-5  col-sm-12 col-12  innerbox address">
                   <div class="round-cover">
                     <svg xmlns="http://www.w3.org/2000/svg" width="15.865" height="22.664" viewBox="0 0 15.865 22.664">
@@ -50,13 +55,13 @@
                 </div>
               </div>
             </div>
+
           </div>
+          <!-- card section start -->
 
-
-       
+          <!-- contact form start -->
           <div class="col-xl-4 col-lg-5 col-md-8 m-lg-0 m-md-auto col-sm-10 m-auto col-11 right aos-init aos-animate"
             data-aos="fade-up" data-aos-duration="1000">
-
             <div style="display: block; border: 0px none; width: 100%; max-width: 100%; margin: 0px auto;">
               <div class="lf-form">
                 <div class="lf-form__content"
@@ -68,7 +73,8 @@
                         <div class="lf-form__step__item">
                           <div class="lf-form__step__item-question">
                             <div data-question-type="FIRST_NAME" class="lf-form__question">
-                              <div class="lf-form__question__inputfield"><label for="S1_Q1" class="active"> {{ page.label-name }}
+                              <div class="lf-form__question__inputfield"><label for="S1_Q1" class="active"> {{
+                                  page.label-name }}
                                   <span>*</span></label>
                                 <div class="ui-textbox ui-textbox--icon-position-left" data-vv-scope="leadgen-form"
                                   data-vv-value-path="value">
@@ -83,8 +89,8 @@
                         <div class="lf-form__step__item">
                           <div class="lf-form__step__item-question">
                             <div data-question-type="EMAIL_ADDRESS" class="lf-form__question">
-                              <div class="lf-form__question__inputfield"><label for="S1_Q2" class="active"> 
-                                {{ page.label-email }}
+                              <div class="lf-form__question__inputfield"><label for="S1_Q2" class="active">
+                                  {{ page.label-email }}
                                   <span>*</span></label>
                                 <div class="ui-textbox ui-textbox--icon-position-left" data-vv-scope="leadgen-form"
                                   data-vv-value-path="value" focust="saveVisitInteractedAt()">
@@ -98,8 +104,8 @@
                         <div class="lf-form__step__item">
                           <div class="lf-form__step__item-question">
                             <div data-question-type="EMAIL_ADDRESS" class="lf-form__question">
-                              <div class="lf-form__question__inputfield"><label for="S1_Q2" class="active"> 
-                                {{ page.label-number }}
+                              <div class="lf-form__question__inputfield"><label for="S1_Q2" class="active">
+                                  {{ page.label-number }}
                                   <span>*</span></label>
                                 <div class="ui-textbox ui-textbox--icon-position-left" data-vv-scope="leadgen-form"
                                   data-vv-value-path="value" focust="saveVisitInteractedAt()">
@@ -114,7 +120,7 @@
                           <div class="lf-form__step__item-question">
                             <div data-question-type="PHONE_NUMBER" class="lf-form__question">
                               <div class="lf-form__question__inputfield"><label for="S1_Q3" class="active">
-                                {{ page.label-message }}
+                                  {{ page.label-message }}
                                 </label>
                                 <div
                                   class="ui-textbox materialize-textarea ui-textbox--icon-position-left is-multi-line"
@@ -154,12 +160,16 @@
               </div>
 
             </div>
-
+          </div>
+          <!-- contact form end -->
 
     </section>
+    <!-- banner end -->
+
   </main>
   {% include footer.html %}
   </main>
+  {% include scripts.html %}
 </body>
 
 </html>

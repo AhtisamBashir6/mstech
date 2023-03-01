@@ -5,10 +5,6 @@ underline * {
 	padding: 0;
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
 	padding-top: 3rem;
 	color: #5a5a5a;
@@ -16,12 +12,6 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
 	margin-bottom: 4rem;
 }
@@ -46,6 +36,14 @@ body {
 }
 
 
+.link-navbar:hover {
+	color: #510c76 !important;
+}
+
+.link-navbar {
+	font-size: 18px;
+}
+
 // Navbar
 #button {
 	padding: 5px 16px;
@@ -62,6 +60,12 @@ body {
 	font-weight: 800;
 	transition: 0.16s ease-in-out;
 	transform: scale(1);
+
+	.nav-button {
+		padding: 5px 18px;
+		color: black;
+		text-transform: uppercase;
+	}
 }
 
 #button:hover {
@@ -72,65 +76,25 @@ body {
 #nav-logo {
 	color: #510c76;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 34px;
 	text-decoration: none;
 }
 
-main {
-	.banner {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top left;
-		padding-top: 85px;
-		padding-bottom: 85px;
-		color: white;
-	}
+
+
+.navbar-container {
+	padding: 12px 0;
 }
-
-
-
-/* Blogs
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing {
-	.col-lg-4 {
-		margin-bottom: 1.5rem;
-		text-align: center;
-
-		p {
-			margin-right: .75rem;
-			margin-left: .75rem;
-		}
-	}
-
-	h2 {
-		font-weight: 400;
-	}
-}
-
-
-
-
-/* Featurettes
-------------------------- */
 
 .featurette-divider {
-	margin: 5rem 0;
+	margin: 50px 0;
 	/* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -.05rem;
-}
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 @media (min-width: 40em) {
 
 	/* Bump up size of carousel content */
@@ -151,9 +115,6 @@ main {
 	}
 }
 
-.nav-link:hover {
-	color: red;
-}
 
 .blog-heading {
 	text-align: center;
@@ -183,6 +144,10 @@ header {
 	margin-top: -12px;
 }
 
+.banner-data {
+	width: 50%;
+}
+
 
 // footer
 .container {
@@ -190,6 +155,35 @@ header {
 		width: 60%;
 	}
 
+}
+
+
+main {
+	.banner {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top left;
+		padding-top: 85px;
+		padding-bottom: 85px;
+		color: white;
+
+		h6 {
+			p {
+				font-size: 20px;
+				line-height: 32px;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.marketing {
+	margin-top: 30px;
+}
+
+.card-text {
+	margin-top: 30px;
+	font-size: 16px;
 }
 
 footer {
@@ -442,6 +436,7 @@ main {
 	-webkit-box-shadow: 0px 53px 76px 0px rgba(62, 64, 140, 0.05);
 }
 
+
 .medium-img {
 	width: 100%;
 	height: auto;
@@ -452,8 +447,6 @@ main {
 h5 {
 	font-weight: bold;
 	color: #444;
-	margin-bottom: 28px;
-	margin-top: 30px;
 }
 
 a:hover {
@@ -616,3 +609,144 @@ label {
 	justify-content: center;
 	align-items: center;
 }
+
+.outercol {
+	margin-top: 30px;
+}
+
+.about-image {
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border-radius: 20px;
+}
+
+.outer-card-col {
+	margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+	.nav-row {
+		margin: 10px 15px;
+
+		.nav-block {
+			.nav-element {
+				.nav-item {
+					margin: 15px 0;
+
+					a:hover {
+						color: #510c76;
+					}
+				}
+
+			}
+		}
+	}
+
+}
+
+.servicessection {
+	padding-top: 80px;
+}
+
+// Services
+.servicerow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+
+	.imgwrap {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: fit-content;
+
+		.cover {
+			padding: 15px;
+			background-color: #fff;
+			border: 1px solid #F5F0FF;
+			border-radius: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-width: 92px;
+			min-height: 92px;
+			height: auto;
+			width: 100%;
+		}
+	}
+
+	.outerwrap {
+		.innerwrap {
+			h2 {
+				margin-top: 16px;
+				margin-bottom: 20px;
+				font-weight: 900;
+				color: #444;
+			}
+
+			p {
+				font-size: 20px;
+				font-weight: 800;
+				color: #444;
+			}
+		}
+
+		.description {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+main {
+	.arrow-btn {
+		color: #510c76;
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: 800;
+		display: flex;
+		align-items: center;
+		width: fit-content;
+	}
+
+	.arrow-btn::after {
+		font-family: "Font Awesome 5 Pro";
+		content: "\f178";
+		font-size: 20px;
+		font-weight: 900;
+		margin-left: 5px;
+		transition: all 0.255s ease-in-out;
+	}
+}
+
+.third-section {
+	padding-top: 90px;
+	padding-bottom: 90px;
+
+	.row1 {
+		border-radius: 4px;
+		background-color: #510c76;
+		display: flex;
+		align-items: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		padding-right: 60px;
+		padding-left: 30px;
+	}
+
+	h2 {
+		color: #fff;
+		margin-bottom: 26px;
+	}
+
+	p {
+		color: #fff;
+	}
+
+	.button {
+		margin-left: auto;
+	}
+}
+
