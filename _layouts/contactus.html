@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <main id="contact">
+
+    <!-- banner start -->
+    <section class="banner">
+      <div class="container">
+        <div class="row row1">
+
+          <!-- card section start -->
+          <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12 left aos-init aos-animate" data-aos="fade-up"
+            data-aos-duration="1000">
+            <h1>{{ page.heading }}</h1>
+            <h6>
+              <p> {{ page.subheading | markdownify }}</p>
+            </h6>
+            <div class="container d-lg-block">
+
+              <div class="row cardrow justify-content-lg-start justify-content-md-center justify-content-sm-center">
+                <div class=" col-xl-5 col-lg-10 col-md-5  col-sm-12 col-12  innerbox address">
+                  <div class="round-cover">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15.865" height="22.664" viewBox="0 0 15.865 22.664">
+                      <g id="_352521_location_on_icon" data-name="352521_location_on_icon"
+                        transform="translate(-10 -4)">
+                        <path id="Path_26377" data-name="Path 26377"
+                          d="M17.932,4A7.934,7.934,0,0,0,10,11.932c0,5.949,7.932,14.732,7.932,14.732s7.932-8.782,7.932-14.732A7.934,7.934,0,0,0,17.932,4Zm0,10.765a2.833,2.833,0,1,1,2.833-2.833A2.834,2.834,0,0,1,17.932,14.765Z"
+                          fill="#510c76"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <p>{{ site.brand-name }}</p>
+                  <p> {{ site.footer-street-address }}</p>
+                  <p> {{ site.footer-city }}</p>
+                  <p>{{ site.footer-country }}</p>
+                </div>
+                <div class=" col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12  innerbox phoneNumber">
+                  <div class="round-cover">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17.33" height="17.33" viewBox="0 0 17.33 17.33">
+                      <g id="_352510_local_phone_icon_2_" data-name="352510_local_phone_icon (2)"
+                        transform="translate(-6 -6)">
+                        <path id="Path_26374" data-name="Path 26374"
+                          d="M9.49,13.5a14.5,14.5,0,0,0,6.345,6.34l2.118-2.123a.966.966,0,0,1,.977-.236,10.96,10.96,0,0,0,3.437.549A.959.959,0,0,1,23.33,19v3.37a.959.959,0,0,1-.963.963A16.365,16.365,0,0,1,6,6.963.962.962,0,0,1,6.963,6h3.37a.959.959,0,0,1,.963.963,10.96,10.96,0,0,0,.549,3.437.966.966,0,0,1-.236.977Z"
+                          transform="translate(0 0)" fill="#510c76"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <p>
+                    <a href="{{ site.footer-contact-number }}">{{ site.footer-contact-number }}</a>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- card section start -->
+
+          <!-- contact form start -->
+          <div class="col-xl-4 col-lg-5 col-md-8 m-lg-0 m-md-auto col-sm-10 m-auto col-11 right aos-init aos-animate"
+            data-aos="fade-up" data-aos-duration="1000">
+            <div style="display: block; border: 0px none; width: 100%; max-width: 100%; margin: 0px auto;">
+              <div class="lf-form">
+                <div class="lf-form__content"
+                  style="background-color: rgb(255, 255, 255); border: 1px none rgb(221, 221, 221); border-radius: 2px; overflow: hidden;">
+                  <div class="lf-form__progress"></div>
+                  <form style="padding: 10px 10px 10px 10px;">
+                    <div class="lf-form__step__container fade-enter-active fade-inactive">
+                      <div class="lf-form__step fade-enter-active">
+                        <div class="lf-form__step__item">
+                          <div class="lf-form__step__item-question">
+                            <div data-question-type="FIRST_NAME" class="lf-form__question">
+                              <div class="lf-form__question__inputfield"><label for="S1_Q1" class="active"> {{
+                                  page.label-name }}
+                                  <span>*</span></label>
+                                <div class="ui-textbox ui-textbox--icon-position-left" data-vv-scope="leadgen-form"
+                                  data-vv-value-path="value">
+                                  <div class="ui-textbox__content"><label class="ui-textbox__label"><input n type="text"
+                                        class="ui-textbox__input"> </label> </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="lf-form__step__item">
+                          <div class="lf-form__step__item-question">
+                            <div data-question-type="EMAIL_ADDRESS" class="lf-form__question">
+                              <div class="lf-form__question__inputfield"><label for="S1_Q2" class="active">
+                                  {{ page.label-email }}
+                                  <span>*</span></label>
+                                <div class="ui-textbox ui-textbox--icon-position-left" data-vv-scope="leadgen-form"
+                                  data-vv-value-path="value" focust="saveVisitInteractedAt()">
+                                  <div class="ui-textbox__content"><label class="ui-textbox__label"><input name="S1_Q2"
+                                        type="email" class="ui-textbox__input"> </label> </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="lf-form__step__item">
+                          <div class="lf-form__step__item-question">
+                            <div data-question-type="EMAIL_ADDRESS" class="lf-form__question">
+                              <div class="lf-form__question__inputfield"><label for="S1_Q2" class="active">
+                                  {{ page.label-number }}
+                                  <span>*</span></label>
+                                <div class="ui-textbox ui-textbox--icon-position-left" data-vv-scope="leadgen-form"
+                                  data-vv-value-path="value" focust="saveVisitInteractedAt()">
+                                  <div class="ui-textbox__content"><label class="ui-textbox__label"><input name="S1_Q2"
+                                        type="email" class="ui-textbox__input"></label> </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="lf-form__step__item">
+                          <div class="lf-form__step__item-question">
+                            <div data-question-type="PHONE_NUMBER" class="lf-form__question">
+                              <div class="lf-form__question__inputfield"><label for="S1_Q3" class="active">
+                                  {{ page.label-message }}
+                                </label>
+                                <div
+                                  class="ui-textbox materialize-textarea ui-textbox--icon-position-left is-multi-line"
+                                  data-vv-scope="leadgen-form" data-vv-value-path="value">
+                                  <div class="ui-textbox__content"><label class="ui-textbox__label"><textarea
+                                        name="S1_Q4" rows="3" class="ui-textbox__textarea"
+                                        style="overflow: hidden; overflow-wrap: break-word; margin-bottom: 20px; resize: none; height: 93.3333px;width:100%;border-radius: 5px !important;border: 1px Solid #ccc !important;"></textarea>
+                                    </label> </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="lf-form__step-nav">
+                      <div class="lf-form__last-step-nav center-align">
+                        <div class="lf-form__mid-step-nav">
+                          <div class="submit_button_wrapper sbmt_width">
+                            <div style="width: 100%;"><button
+                                class="ui-button ui-button--type-primary ui-button--color-primary ui-button--icon-position-left ui-button--size-normal lf-form__submit-step-btn"
+                                name="action"
+                                style="background-color: rgb(249, 202, 71); color: rgb(0, 0, 0); font-size: 18px; font-weight: 400; height: 50px !important; padding: 0px; width: 100%; border-radius: 4px; text-transform: none; border: 0px solid rgb(33, 150, 243); box-sizing: border-box;">
+                                <div class="ui-button__content">
+                                  {{ site.button-heading }}&nbsp;
+                                  <div class="lf-form__submit-step-btn__icon"></div>
+                                </div>
+                                <div class="ui-button__focus-ring"></div>
+                                <div class="ui-ripple-ink"></div>
+                              </button></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- contact form end -->
+
+    </section>
+    <!-- banner end -->
+
+  </main>
+  {% include footer.html %}
+  </main>
+  {% include scripts.html %}
+</body>
+
+</html>
