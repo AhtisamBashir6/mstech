@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
   services:
-    output: true
     title: services
+    output: true
 email: ahtisam.bashir@apexure.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
