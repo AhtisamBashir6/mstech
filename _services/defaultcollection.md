@@ -6,8 +6,8 @@ svg-icon: assets/img/contingent-staffing.svg
 image-card: 'assets/img/default-service-thumbnail.png'
 image-feature: 'assets/img/default-service.png'
 image-banner: '../assets/img/default-service-banner.png'
-heading: Default Service Collection
-sub-heading: Default Service Collection Sub Heading
+heading: Default Service Heading
+sub-heading: Default Service Subheading
 short-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis. Senectus et netus et malesuada fames ac turpis. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim."
 ---
 
