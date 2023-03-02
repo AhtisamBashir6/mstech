@@ -33,8 +33,7 @@
                                 data-aos-duration="1000" style="display: flex;">
                                 <div class="col-xl-5 col-lg-5 col-md-12 m-md-auto col-sm-12 col-12">
                                     <div class="img ">
-                                        <img class="medium-img" src="{{ site.baseurl }}/{{ post.image-feature }}" alt={{
-                                            post.title }} class="img-fluid">
+                                        <img class="medium-img" src="{{ site.baseurl }}{{ post.image-feature }}" alt={{ post.title }} class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-xl-7 col-lg-7 col-md-12 m-md-auto col-sm-12 col-12 aos-init aos-animate"
@@ -50,11 +49,11 @@
                                             </span>
                                         </p>
                                         <a href="#" class="title">
-                                            <h5> <a href="{{ site.baseurl }}/{{ post.permalink }}">{{ post.title }}</a>
+                                            <h5> <a href="{{ site.baseurl }}{{ post.permalink }}">{{ post.title }}</a>
                                             </h5>
                                         </a>
                                         <p>{{ post.description }}</p>
-                                        <a href="{{ site.baseurl }}/{{ post.permalink }}" class="arrow-btn">
+                                        <a href="{{ site.baseurl }}{{ post.permalink }}" class="arrow-btn">
                                             Read More</a>
                                     </div>
                                 </div>

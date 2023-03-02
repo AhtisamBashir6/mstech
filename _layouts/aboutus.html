@@ -19,7 +19,7 @@
                         </h6>
       
                         
-                        <a href="{{ site.baseurl }}/contact-us" class="button ">GET IN TOUCH</a>
+                        <a href="{{ site.baseurl }}contact-us" class="button ">GET IN TOUCH</a>
                         
       
                     </div>
@@ -32,7 +32,7 @@
         <section id="aboutus" class="container marketing">
             <div class="row featurette">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img class="py-4 left-image rounded mx-auto d-block" src="{{ site.baseurl }}/{{ page.aboutus-image }}" alt="About-Us-Image">
+                    <img class="py-4 left-image rounded mx-auto d-block" src="{{ site.baseurl }}{{ page.aboutus-image }}" alt="About-Us-Image">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 pt-3">
                     <p class="card-text">{{ page.aboutus-description | markdownify }}</p>
@@ -93,10 +93,10 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2  row-cols-lg-3 g-3">
                   {% for post in site.posts %}
                   {% unless post.title == 'Post Application of Markdown' %}
-                  <a href="{{ site. baseurl }}/{{ post.permalink}}">
+                  <a href="{{ site. baseurl }}{{ post.permalink}}">
                     <div class="col outercol">
                       <div class="card shadow-sm">
-                        <img class="p-3" src="{{ site.baseurl }}/{{ post.image-card }}" alt="{{ post.title }}">
+                        <img class="p-3" src="{{ site.baseurl }}{{ post.image-card }}" alt="{{ post.title }}">
                         <div class="card-body">
                           <h5>{{ post.title }} </h5>
                           <p class="card-text">{{ post.description }}</p>

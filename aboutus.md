@@ -3,10 +3,15 @@ title: About Us
 permalink: "/about-us"
 layout: aboutus
 bannerheading: About MSTech Solutions
-bannersubheading: We foster a culture of challenging ourselves and willingness to
-  take responsibility to enhance the experience of our partners in  success by embracing
-  continuous improvement.
-aboutus-image: "/assets/img/about-section-2-left.png"
+bannersubheading: We foster a culture of challenging ourselves and <br> willingness
+  to take responsibility to enhance the <br> experience of our partners in  success
+  by <br> embracing continuous improvement.
+aboutus-image: "assets/img/about-section-2-left.png"
+permalink: "/about-us"
+title: About Us
+bannersubheading: |-
+ We foster a culture of challenging ourselves and willingness to take responsibility to enhance the experience of our partners in  success by embracing continuous improvement.
+aboutus-image: "assets/img/about-section-2-left.png"
 button-title: GET IN TOUCH
 aboutus-description: "**MS Tech has earned its reputation by successfully delivering
   upon our client aspirations by inspiring skilled professionals ready to advance
