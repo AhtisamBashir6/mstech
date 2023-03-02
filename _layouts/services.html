@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <main role="main">
+        <section class="banner" style="background-image: url(https://recruittalent.com/images/services-banner.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-10 col-sm-12 col-12" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <h1>
+                            {{ page.bannerheading | markdownify }}
+                        </h1>
+                        <h6>
+                            <p>{{ page.bannersubheading | markdownify }}</p>
+
+                        </h6>
+                        <a href="{{ site.baseurl }}contact-us" class="button ">GET IN TOUCH</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner end -->
+
+        <!-- services start -->
+        <section id="services" class="servicessection">
+            <div class="container">
+                {% for service in site.services %}
+                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                {% if thecycle == 'odd' %}
+                <div class="row  odd servicerow">
+                    <div class="col-lg-5 col-md-10 col-sm-12 col-12 left thumbnail-img-cover " data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="{{ site.baseurl }}{{ service.image-card }}" alt="{{ service.title }}" class="img-fluid">
+                    </div>
+                    <div class="col-lg-7 col-md-10 col-sm-12 col-12 right " data-aos="fade-up" data-aos-duration="1000">
+                        <div class="imgwrap">
+                            <div class="cover">
+                                <img src="{{ site.baseurl }}{{ service.svg-icon }}" alt="{{ service.title }}">
+                            </div>
+                        </div>
+                        <div class="outerwrap">
+                            <div class="innerwrap">
+                                <h2>
+                                    {{ service.heading }}
+                                </h2>
+                                <p>
+                                    {{ service.sub-heading }}
+                                </p>
+                            </div>
+                            <div class="description">
+                                <p>{{ service.short-description | markdownify }}</p>
+
+                            </div>
+                            <div>
+                                <a href="{{ site.baseurl }}{{ service.permalink }}" class="arrow-btn">Learn More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                {% else %}
+                <div class="row even servicerow">
+                    <div class="col-lg-7 col-md-10 col-sm-12 col-12 left  order-12 order-sm-12 order-md-12"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        <div class="imgwrap">
+                            <div class="cover">
+                                <img src="{{ site.baseurl }}{{ service.svg-icon }}" alt="{{ service.title }}">
+                            </div>
+                        </div>
+                        <div class="outerwrap">
+                            <div class="innerwrap">
+                                <h2>
+                                    {{ service.heading }}
+                                </h2>
+                                <p>
+                                    {{ service.sub-heading }}
+                                </p>
+
+
+                            </div>
+                            <div class="description">
+                                <p>{{ service.short-description | markdownify }}</p>
+
+                            </div>
+                            <div>
+                                <a href="{{ site.baseurl }}{{ service.permalink }}" class="arrow-btn">Learn More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-10 col-sm-12 col-12 right thumbnail-img-cover  order-lg-12"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        <img src="{{ site.baseurl }}{{ service.image-card }}" alt="{{ service.title }}" class="img-fluid">
+                    </div>
+
+                </div>
+
+                {%- endif -%}
+                {% endfor %}
+            </div>
+
+        </section>
+        <!-- services end -->
+
+        <!-- last section start -->
+        <section class="third-section">
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row row1">
+                                <div class="col-lg-9 col-md-10 col-12 " data-aos="fade-up" data-aos-duration="1000">
+
+                                    <h2>
+                                        Enhance Your Skills With RecruitTalent
+                                    </h2>
+
+
+                                    <p>
+                                        Want to know more about our offerings and services?
+                                    </p>
+
+                                </div>
+                                <div class="col-lg-3 col-md-10 col-12 ">
+
+                                    <a href="{{ site.baseurl }}contact-us" class="button">GET IN TOUCH</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- last section end -->
+
+        {% include footer.html %}
+    </main>
+    {% include scripts.html %}
+</body>
+
+</html>
