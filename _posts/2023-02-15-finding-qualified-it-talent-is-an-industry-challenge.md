@@ -1,23 +1,14 @@
 ---
 title: Finding qualified IT Talent is an industry challenge! How can RecruitTalent
   Help?
-date: 2023-02-15 00:00:00 Z
 permalink: "/blog/finding-qualified-it-talent-is-an-industry-challenge"
 layout: post
-<<<<<<< Updated upstream
-image-card: "/img/finding-qualified-it-talent-thumbnail.png"
-image-banner: "/img/finding-qualified-it-talent-feature.png"
-image-feature: "/img/finding-qualified-it-talent-short.png"
-description: 'Lack of talent makes hiring qualified people a challenging task for
-  businesses across industries for growth to customers.                                      '
-=======
 title: Finding qualified IT Talent is an industry challenge! How can RecruitTalent Help?
 image-card: "assets/img/finding-qualified-it-talent-thumbnail.png"
 image-banner: "assets/img/finding-qualified-it-talent-feature.png"
 image-feature: "assets/img/finding-qualified-it-talent-short.png"
 description: "Lack of talent makes hiring qualified people a challenging task for businesses across industries for growth to customers.                                      "
 permalink: blog/finding-qualified-it-talent-is-an-industry-challenge 
->>>>>>> Stashed changes
 ---
 
 Let’s accept it. We face a global IT talent shortage. There are more than 11 million job openings in America today, with a greater demand for cloud computing, big data, and information security. Additionally, employment in computer and information technology occupations is projected to grow 13 percent from 2020 to 2030, faster than the average for all occupations, according to the U.S. Bureau of Labor Statistics.

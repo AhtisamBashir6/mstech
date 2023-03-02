@@ -6,6 +6,7 @@
     {% include header.html %}
 
     <main role="main">
+        <!-- banner start -->
         <section class="banner banner-image" style="background-image: url('{{ site.baseurl }}/{{page.image-banner}}')">
             <div class="container">
                 <div class="row">
@@ -26,6 +27,25 @@
             </div>
         </section>
         <!-- banner end -->
+
+        <section class="sec-section">
+            <div class="container">
+                <div class="row row1">
+                    <div class=" col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 left m-lg-0 ">
+                        <img src="{{ site.baseurl }}/{{page.image-feature}}" alt="">
+                    </div>
+                    <div class="col-lg-7 col-md-10 col-sm-12 col-12 right ticklist  aos-init aos-animate"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        <p>
+                            {{ content }}
+                        </p>
+                        <a href="/contact/" class="button">GET STARTED</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
         {% include footer.html %}
     </main>
     {% include scripts.html %}

@@ -6,7 +6,7 @@ bannerheading: About MSTech Solutions
 bannersubheading: We foster a culture of challenging ourselves and <br> willingness
   to take responsibility to enhance the <br> experience of our partners in  success
   by <br> embracing continuous improvement.
-aboutus-image: "/img/about-section-2-left.png"
+aboutus-image: "assets/img/about-section-2-left.png"
 permalink: "/about-us"
 title: About Us
 bannersubheading: |-
