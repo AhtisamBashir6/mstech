@@ -7,15 +7,12 @@ collections:
     output: true
   uploads:
     output: true
-
 defaults:
-  -
-   scope:
-      path: ""
-      type: "defaultcollection" # a collection in your site, in plural form
-   values:
-      layout: "default"
-  
+- scope:
+    path: ''
+    type: defaultcollection
+  values:
+    layout: default
 email: ahtisam.bashir@apexure.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
