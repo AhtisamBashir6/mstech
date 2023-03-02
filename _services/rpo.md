@@ -1,17 +1,19 @@
 ---
-permalink: 'services/recruitment-process-outsourcing'
+title: RPO- Recruitment Process Outsourcing
+permalink: services/recruitment-process-outsourcing
 layout: service
-title: RPO- Recruitment Process Outsourcing 
-svg-icon: "assets/img/recruitment-process-outsourcing.svg"
-image-card: "assets/img/recruitment-process-outsourcing-thumbnail.png"
-image-feature: "assets/img/rpo.png"
-image-banner: "assets/img/recruitment-process-outsourcing-banner.png"
-bullet-svg: "assets/img/list-bullet.svg"
-heading: RPO- Recruitment Process Outsourcing 
-sub-heading: "Efficient and Cost-Effective Recruitment Solutions"
-short-description: >
-  **RecruitTalent** provides efficient and cost-effective workforce solutions in today’s marketplace. In its RPO offering, RecruitTalent assumes management of the client’s recruiting functions for contingent labor and/or direct hire
+svg-icon: assets/img/recruitment-process-outsourcing.svg
+image-card: assets/img/recruitment-process-outsourcing-thumbnail.png
+image-feature: assets/img/rpo.png
+image-banner: assets/img/recruitment-process-outsourcing-banner.png
+bullet-svg: assets/img/list-bullet.svg
+heading: RPO- Recruitment Process Outsourcing
+sub-heading: Efficient and Cost-Effective Recruitment Solutions
+short-description: "**RecruitTalent** provides efficient and cost-effective workforce
+  solutions in today’s marketplace. In its RPO offering, RecruitTalent assumes management
+  of the client’s recruiting functions for contingent labor and/or direct hire\n"
 ---
+
   **RecruitTalent** provides efficient and cost-effective workforce solutions in today’s marketplace. In its RPO offering, RecruitTalent assumes management of the client’s recruiting functions for contingent labor and/or direct hires.
 
   **RecruitTalent’s** RPO provides quantifiable benefits through improved efficiencies, lower overhead, reduced payroll, and benefit expenses, by dedicating a recruiter to find qualified candidates while you can focus on other business requirements and grow revenue through creating robust and efficient business channels. We deliver quality results and financial savings using our internal Applicant Tracking System (ATS) and recruitment tools such as Dice, Monster, Clearance Jobs, CareerBuilder, Indeed, etc.

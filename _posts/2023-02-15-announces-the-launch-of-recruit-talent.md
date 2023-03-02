@@ -1,11 +1,13 @@
 ---
-layout: post
 title: Announces the Launch of Recruit Talent
-image-card: "assets/img/recruittalentthumbnail.png"
-image-feature: "assets/img/recruittalentshort.png"
+date: 2023-02-15 00:00:00 Z
+permalink: blog/announces-the-launch-of-recruit-talent
+layout: post
+image-card: assets/img/recruittalentthumbnail.png
+image-feature: assets/img/recruittalentshort.png
 image-banner: assets/img/recruittalentfeature.png
-description: "SYSUSA. Inc. (www.sysusa.com), an Information Technology Services and Solutions Company, announced the launch of a dba RecruitTalent, LLC. (www.recruittalent.com)."
-permalink: "blog/announces-the-launch-of-recruit-talent"
+description: SYSUSA. Inc. (www.sysusa.com), an Information Technology Services and
+  Solutions Company, announced the launch of a dba RecruitTalent, LLC. (www.recruittalent.com).
 ---
 
 MANASSAS, VA – SYSUSA. Inc. www.sysusa.com, an Information Technology Services and Solutions Company, announced the launch of a dba RecruitTalent, LLC. (www.recruittalent.com).

@@ -1,12 +1,15 @@
 ---
-layout: post
 title: Post Application of Markdown
-image-card: "assets/img/rpothumbnail.png"
-image-feature: "assets/img/rposhort.png"
-image-banner: "assets/img/rpofeature.png"
-description: "Let's accept it. We face a global IT talent shortage. There are more than 11 million job openings in America today."
+date: 2023-02-27 00:00:00 Z
 permalink: blog/post-application-of-markdown
+layout: post
+image-card: assets/img/rpothumbnail.png
+image-feature: assets/img/rposhort.png
+image-banner: assets/img/rpofeature.png
+description: Let's accept it. We face a global IT talent shortage. There are more
+  than 11 million job openings in America today.
 ---
+
 <!-- # Representation of Heading1
 ## Representation of Heading2
 ### Representation of Heading3
