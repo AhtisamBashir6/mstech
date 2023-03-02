@@ -12,13 +12,12 @@ collections:
     title: Uploads
     output: true
 email: ahtisam.bashir@apexure.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://ahtisambashir6.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-footer-contact-number: (202) 9892-40944
+description: Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+baseurl: "/"
+url: https://ahtisambashir6.github.io
+footer-contact-number: "(202) 9892-40944"
 brand-name: MSTech Solutions
 footer-street-address: 23 Sector Main Street D,
 footer-city: Manhattan, VA 20160,
