@@ -16,7 +16,7 @@ description: Write an awesome description for your new site here. You can edit t
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 baseurl: "/"
-url: https://ahtisambashir6.github.io
+url: http://mstech.siteleaf.net
 footer-contact-number: "(202) 9892-40944"
 brand-name: MSTech Solutions
 footer-street-address: 23 Sector Main Street D,
