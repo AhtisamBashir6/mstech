@@ -3,12 +3,15 @@ title: Default Service
 permalink: services/default-service
 layout: service
 svg-icon: assets/img/contingent-staffing.svg
-image-card: 'assets/img/default-service-thumbnail.png'
-image-feature: 'assets/img/default-service.png'
-image-banner: '../assets/img/default-service-banner.png'
+image-card: assets/img/default-service-thumbnail.png
+image-feature: assets/img/default-service.png
+image-banner: "../assets/img/default-service-banner.png"
 heading: Default Service Heading
 sub-heading: Default Service Subheading
-short-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis. Senectus et netus et malesuada fames ac turpis. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim."
+short-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo
+  duis. Senectus et netus et malesuada fames ac turpis. Vestibulum rhoncus est pellentesque
+  elit ullamcorper dignissim.
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis. Senectus et netus et malesuada fames ac turpis. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. Tellus at urna condimentum mattis pellentesque.
