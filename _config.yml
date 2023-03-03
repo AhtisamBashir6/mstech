@@ -13,18 +13,10 @@ collections:
     output: true
 defaults:
 - scope:
-    path: ''
+    path: 
     type: services
   values:
     layout: service
-    title: 
-    svg-icon: 
-    image-card: 
-    image-feature: 
-    banner-image: 
-    heading: 
-    sub-heading: 
-    short-description: 
 - scope:
     path: ''
     type: posts
