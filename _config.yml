@@ -26,12 +26,12 @@ defaults:
     type: posts
   values:
     layout: post
-    card-image:
+    card-image: 
     feature-image: 
-    banner-image:
+    banner-image: 
     heading: 
-    sub-heading:
-    short-description:
+    sub-heading: 
+    short-description: 
 email: ahtisam.bashir@apexure.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
