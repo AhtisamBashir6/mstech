@@ -25,6 +25,7 @@ defaults:
     heading: 
     sub-heading: 
     short-description: ''
+    permalink: "/:collection/:title/"
 - scope:
     path: ''
     type: posts
