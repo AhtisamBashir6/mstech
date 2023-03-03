@@ -17,8 +17,8 @@ defaults:
     type: services
   values:
     layout: service
-    permalink: ""
-    title:
+    permalink: ''
+    title: 
     svg-icon: 
     image-card: 
     image-feature: 
