@@ -17,12 +17,12 @@ defaults:
     type: services
   values:
     layout: service
-    meta-description:
+    meta-description: 
     meta-keyword: 
-    banner-image:
-    image-banner:
-    description-content:
-    content-description:
+    banner-image: 
+    image-banner: 
+    description-content: 
+    content-description: 
 - scope:
     path: ''
     type: posts
