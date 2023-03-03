@@ -1,11 +1,15 @@
 ---
 title: MSTech
+timezone: UTC
 collections:
   posts:
+    title: Posts
     output: true
   services:
+    title: Services
     output: true
   uploads:
+    title: Uploads
     output: true
 defaults:
 - scope:
@@ -15,17 +19,17 @@ defaults:
     layout: service
     title: Default Service
     svg-icon: assets/img/contingent-staffing.svg
-    image-card: 'assets/img/default-service-thumbnail.png'
-    image-feature: 'assets/img/default-service.png'
-    image-banner: '../assets/img/default-service-banner.png'
+    image-card: assets/img/default-service-thumbnail.png
+    image-feature: assets/img/default-service.png
+    image-banner: "../assets/img/default-service-banner.png"
     heading: 
     sub-heading: 
-    short-description: ""
+    short-description: ''
 - scope:
-    path: ""
-    type: "posts"
+    path: ''
+    type: posts
   values:
-    layout: "post"
+    layout: post
     image-card: assets/img/default-service-thumbnail.png
     image-feature: assets/img/default-service.png
     image-banner: "../assets/img/default-service-banner.png"
