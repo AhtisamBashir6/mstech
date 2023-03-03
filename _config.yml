@@ -25,7 +25,7 @@ defaults:
     heading: 
     sub-heading: 
     short-description: ''
-    permalink: "/:collection/:title/"
+    permalink: ":collection/:title"
 - scope:
     path: ''
     type: posts
@@ -40,6 +40,7 @@ defaults:
       do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae
       et leo duis. Senectus et netus et malesuada fames ac turpis. Vestibulum rhoncus
       est pellentesque elit ullamcorper dignissim.
+    
 email: ahtisam.bashir@apexure.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -53,6 +54,7 @@ footer-city: Manhattan, VA 20160,
 footer-country: USA
 button-heading: Contact us
 github_username: AhtisamBashir6
+permalink: "/blog/:title"
 theme: minima
 plugins:
 - jekyll-feed
