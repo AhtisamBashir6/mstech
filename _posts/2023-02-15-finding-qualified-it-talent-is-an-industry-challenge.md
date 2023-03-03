@@ -4,9 +4,9 @@ title: Finding qualified IT Talent is an industry challenge! How can RecruitTale
 date: 2023-02-15 00:00:00 Z
 permalink: blog/finding-qualified-it-talent-is-an-industry-challenge
 layout: post
-image-card: assets/img/finding-qualified-it-talent-thumbnail.png
-image-banner: assets/img/finding-qualified-it-talent-feature.png
-image-feature: assets/img/finding-qualified-it-talent-short.png
+card-image: assets/img/finding-qualified-it-talent-thumbnail.png
+banner-image: assets/img/finding-qualified-it-talent-feature.png
+feature-image: assets/img/finding-qualified-it-talent-short.png
 description: 'Lack of talent makes hiring qualified people a challenging task for
   businesses across industries for growth to customers.                                      '
 ---

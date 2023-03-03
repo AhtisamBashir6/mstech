@@ -3,9 +3,9 @@ title: RPO- Recruitment Process Outsourcing
 permalink: services/recruitment-process-outsourcing
 layout: service
 svg-icon: assets/img/recruitment-process-outsourcing.svg
-image-card: assets/img/recruitment-process-outsourcing-thumbnail.png
-image-feature: assets/img/rpo.png
-image-banner: assets/img/recruitment-process-outsourcing-banner.png
+card-image: assets/img/recruitment-process-outsourcing-thumbnail.png
+feature-image: assets/img/rpo.png
+banner-image: assets/img/recruitment-process-outsourcing-banner.png
 bullet-svg: assets/img/list-bullet.svg
 heading: RPO- Recruitment Process Outsourcing
 sub-heading: Efficient and Cost-Effective Recruitment Solutions

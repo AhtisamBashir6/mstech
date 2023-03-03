@@ -3,9 +3,9 @@ title: Sourcing
 permalink: services/sourcing
 layout: service
 svg-icon: assets/img/sourcing.svg
-image-card: assets/img/sourcing-thumbnail.png
-image-feature: assets/img/sourcing.png
-image-banner: assets/img/sourcing-banner.png
+card-image: assets/img/sourcing-thumbnail.png
+feature-image: assets/img/sourcing.png
+banner-image: assets/img/sourcing-banner.png
 heading: Sourcing
 sub-heading: Looking for Job filling Resumes
 short-description: "**RecruitTalent** has developed unique sourcing techniques. Our

@@ -3,9 +3,9 @@ title: Seven Benefits of Recruitment Process Outsourcing (RPO).
 date: 2023-02-15 00:00:00 Z
 permalink: blog/seven-benefits-of-recruitment-outsourcing
 layout: post
-image-card: assets/img/rpothumbnail.png
-image-feature: assets/img/rposhort.png
-image-banner: assets/img/rpofeature.png
+card-image: assets/img/rpothumbnail.png
+feature-image: assets/img/rposhort.png
+banner-image: assets/img/rpofeature.png
 description: Let's accept it. We face a global IT talent shortage. There are more
   than 11 million job openings in America today.
 ---

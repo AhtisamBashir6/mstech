@@ -3,9 +3,9 @@ title: Cleared Recruitment
 permalink: services/cleared-recruitment
 layout: service
 svg-icon: assets/img/cleared-recruitment.svg
-image-card: assets/img/cleared-recruitment-thumbnail.png
-image-feature: assets/img/Cleared-Recruitment.png
-image-banner: assets/img/cleared-recruitment-banner.png
+card-image: assets/img/cleared-recruitment-thumbnail.png
+feature-image: assets/img/Cleared-Recruitment.png
+banner-image: assets/img/cleared-recruitment-banner.png
 heading: Cleared Recruitment
 sub-heading: We fill your Classified and most Challenging Positions
 short-description: "**RecruitTalent** team of seasoned professionals has the capability

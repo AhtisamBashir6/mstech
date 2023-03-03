@@ -3,9 +3,9 @@ title: Direct Hire
 permalink: services/direct-hire
 layout: service
 svg-icon: assets/img/direct-hire.svg
-image-card: assets/img/direct-hire-thumbnail.png
-image-feature: assets/img/direct-hire.png
-image-banner: assets/img/direct-hire-banner.png
+card-image: assets/img/direct-hire-thumbnail.png
+feature-image: assets/img/direct-hire.png
+banner-image: assets/img/direct-hire-banner.png
 heading: Direct Hire
 sub-heading: Leader in the Staffing Industry
 short-description: "**RecruitTalent** provides direct hire (permanent placement) services

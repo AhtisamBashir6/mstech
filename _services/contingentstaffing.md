@@ -3,9 +3,9 @@ title: Contingent Staffing
 permalink: services/contigent-staffing
 layout: service
 svg-icon: assets/img/contingent-staffing.svg
-image-card: assets/img/contingent-staffing-thumbnail.png
-image-feature: assets/img/contigent-staffing.png
-image-banner: assets/img/contingent-staffing-banner.png
+card-image: assets/img/contingent-staffing-thumbnail.png
+feature-image: assets/img/contigent-staffing.png
+banner-image: assets/img/contingent-staffing-banner.png
 heading: Contingent Staffing
 sub-heading: Leader in the Staffing Industry
 short-description: "**RecruitTalent** leverages its mature, quality-certified processes
