@@ -7,7 +7,7 @@
 
     <main role="main">
         <!-- banner start -->
-        <section class="banner banner-image" style="background-image: url('{{ site.baseurl }}{{page.banner-image}}')">
+        <section class="banner banner-image" style="background-image: url('{{ site.baseurl }}/{{page.banner-image}}')">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7 col-lg-7 col-md-10 col-sm-12 col-12" data-aos="fade-up"
@@ -19,7 +19,7 @@
                             <p>{{ page.sub-heading | markdownify }}</p>
 
                         </h6>
-                        <a href="{{ site.baseurl }}contact-us" class="button ">GET STARTED</a>
+                        <a href="{{ site.baseurl }}/contact-us" class="button ">GET STARTED</a>
 
 
                     </div>
@@ -32,14 +32,14 @@
             <div class="container">
                 <div class="row row1">
                     <div class=" col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 left m-lg-0 ">
-                        <img src="{{ site.baseurl }}{{page.feature-image}}" alt="">
+                        <img src="{{ site.baseurl }}/{{page.feature-image}}" alt="">
                     </div>
                     <div class="col-lg-7 col-md-10 col-sm-12 col-12 right ticklist  aos-init aos-animate"
                         data-aos="fade-up" data-aos-duration="1000">
                         <p>
                             {{ content }}
                         </p>
-                        <a href="/contact/" class="button">GET STARTED</a>
+                        <a href="{{ site.baseurl }}/contact-us" class="button">GET STARTED</a>
 
                     </div>
                 </div>
