@@ -1,6 +1,7 @@
 ---
 title: MSTech
 timezone: UTC
+
 collections:
   posts:
     title: Posts
