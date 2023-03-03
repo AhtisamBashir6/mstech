@@ -1,6 +1,7 @@
 ---
 title: Test Era
 date: 2023-03-03 10:11:00 Z
+permalink: "/blog/test-era"
 card-image: "/uploads/imageedit_5_2696262208.jpg"
 ---
 
