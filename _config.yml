@@ -26,6 +26,7 @@ defaults:
     type: posts
   values:
     layout: post
+    permalink: '/blog/:title'
     card-image: 
     feature-image: 
     banner-image: 
