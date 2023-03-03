@@ -21,11 +21,10 @@ defaults:
     svg-icon: 
     image-card: 
     image-feature: 
-    image-banner: 
+    banner-image: 
     heading: 
     sub-heading: 
-    short-description: ''
-    permalink: ":collection/:title"
+    short-description: 
 - scope:
     path: ''
     type: posts
