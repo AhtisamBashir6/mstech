@@ -17,11 +17,12 @@ defaults:
     type: services
   values:
     layout: service
-    title: Default Service
-    svg-icon: assets/img/contingent-staffing.svg
-    image-card: assets/img/default-service-thumbnail.png
-    image-feature: assets/img/default-service.png
-    image-banner: "../assets/img/default-service-banner.png"
+    permalink: ""
+    title:
+    svg-icon: 
+    image-card: 
+    image-feature: 
+    image-banner: 
     heading: 
     sub-heading: 
     short-description: ''
